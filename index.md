@@ -1,7 +1,9 @@
 # Hello
 ## Welcome
 
-*I* **am** in CSE15L lab. [The course website can be found here] (https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
+*I* **am** in CSE15L lab. 
+
+[The course website can be found here] (https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
 
 ![Here is an image of a dog] (https://pngimg.com/uploads/dog/dog_PNG50321.png)
 
@@ -18,7 +20,7 @@ My opinion on the best ice cream flavors are:
 3. Chocolate
 
 ---
-'Just learning to use basic syntax' 
+'Just learning to use basic syntax' here I used backticks.
 
 ```
 These are characters inside a code block.
