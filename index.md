@@ -20,7 +20,7 @@ My opinion on the best ice cream flavors are:
 3. Chocolate
 
 ---
-'Just learning to use basic syntax' here I used backticks.
+`Just learning to use basic syntax` 
 
 ```
 These are characters inside a code block.
