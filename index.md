@@ -1,7 +1,7 @@
 # Hello
 ## Welcome
 
-*I* **am** in CSE15L lab. 
+*I* **am excited to be** in CSE15L lab. 
 
 [The course website can be found here](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
 
