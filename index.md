@@ -3,7 +3,10 @@
 
 *I* **am excited to be** in CSE15L lab. 
 
+[Lab Report 1](https://hthan18.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
 [The course website can be found here](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
+
 
 ![Here is an image of a dog](https://i.pinimg.com/564x/26/e0/61/26e061f714f35992ea60f3aa372eb3cd.jpg)
 
