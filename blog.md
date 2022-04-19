@@ -14,11 +14,11 @@
     * [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 * Look up your course-specific account for CSE15L here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 * Open a terminal in VSCode (Ctrl + `, or use the Terminal → New Terminal menu option). Enter the command and replacing 'zz' with the letters in your course-specific account.
-    * `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
+    * **$ ssh cs15lsp22zz@ieng6.ucsd.edu**
     * Since this is your first time connecting to the server, input yes to the messages you are prompted with.
 * Now you are connected to a server in the CSE basement and any commands you run will run on that computer!
 
-Your terminal should look similar to this
+`Your terminal should look similar to this`
 ![vscodescreenshot](remote.png)
 
 **Third Step:** Trying Some Commands
@@ -33,20 +33,9 @@ An example after running these commands:
 **Fourth Step:** Moving Files with scp
 *  To copy a file from your computer to a remote computer we will use the command **scp**, and we will always run it from the client.
     * Create a file on your computer called WhereAmI.java and put the following contents into it:
-                
-                class WhereAmI {
-
-                public static void main(String[] args) {
-
-                System.out.println(System.getProperty("os.name"));
-                System.out.println(System.getProperty("user.name"));
-                System.out.println(System.getProperty("user.home"));
-                System.out.println(System.getProperty("user.dir"));
-                }
-            }
-
+        * ![commands4](commands4.PNG)
 * Run it using javac and java on your computer, then, in the terminal from the directory where you made this file, run this command (as usually, using your username):
-    * `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
+    * scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
 * You should be prompted for a password just like when you log in with ssh.Then, log into ieng6 with ssh again, and use ls. You should see the file there in your home directory! Now you can run it on the ieng6 computer using javac and java.
 
 ![vscodescreenshot](copying.png)
@@ -67,11 +56,21 @@ An example after running these commands:
 
 * Hints:
     * You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
-        * `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+        * $ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
     * You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
-        * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+        * $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
     * You can use the up-arrow on your keyboard to recall the last command that was run
 
 ![last](last.png)
 
 *Congratulations!* You have set your computer up for remote access to the CSE lab computers and practiced with the commands!
+
+
+
+
+
+
+
+
+
+
