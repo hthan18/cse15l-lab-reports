@@ -57,19 +57,6 @@ An example after running these commands:
 * Here’s what you should run to set this up:
 ![commands2](commands2.PNG)
 
-* Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
-
-        # on client (your computer)
-        $ ssh-keygen
-        Generating public/private rsa key pair.
-        Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
-        Enter passphrase (empty for no passphrase): 
-        Note: Make sure that you do not add a passphrase for this step.
-        Enter same passphrase again: 
-        Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
-        Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
-        The key fingerprint is:
-        SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
 
 * Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
 
