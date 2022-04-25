@@ -6,7 +6,7 @@
 
 [Lab Report 1](https://hthan18.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
-[Lab Report 2]((https://hthan18.github.io/cse15l-lab-reports/lab-report-2-week-4.html))
+[Lab Report 2](https://hthan18.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
 [The course website can be found here](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
 
