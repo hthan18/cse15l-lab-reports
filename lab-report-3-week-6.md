@@ -17,3 +17,23 @@
 * This is where the private key is stored on my PC
 ![remoteServerKey2](remoteServerKey2.PNG)
 
+* Here I am running git commands to commit and push a change to Github while logged onto the remote server
+Here is a link to the commit: [Repo Commit](https://github.com/hthan18/cse15l-lab-reports/commit/ad3a64c8f900cafe4977361ec892cdb7fc5f8043)
+![terminalCommit](terminalCommit.PNG)
+
+## Copy whole directories with scp -r
+
+* Here I am copying my markdown-parse directory to my ieng6 account
+![scpCopy](scpLab.PNG)
+
+* Here I am logging in and then compiling and running the tests
+![sshLog](sshLog.PNG)
+
+![scpTests](testsSCP.png)
+
+* Here is the commands combined to use scp and run the tests in just one line
+
+![scptest2](testsSCP2.PNG)
+![scptest2](testsSCP3.PNG)
+
+
